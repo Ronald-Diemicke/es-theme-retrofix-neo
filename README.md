@@ -1,8 +1,17 @@
-Retrofix - Emulationstation theme for Batocera 5.25+
+Retrofix - Emulationstation theme
 ====================================================
 
-Theme designed by 20Goto10
+NEO Updates:
+By Ronald Diemicke 
 Version 1.0
+Updated 12/23/22
+
+Changes:
+
+====================================================
+
+Original Work:
+Theme designed by 20Goto10
 First release 31/05/2020
 Last updated 9/04/2021
 
