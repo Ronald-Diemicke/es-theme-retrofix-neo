@@ -200,14 +200,6 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<path>./${system.theme}/_inc/bg.jpg</path>
 		</image>
 
-		<image name="batologo" extra="static">
-			<origin>1 0</origin>
-			<pos>0.9739583333333333 0.0462962962962963</pos>
-			<size>0.0723958333333333 0.0204444444444444</size>
-			<path>./_inc/icons/batocera.svg</path>    
-			<zIndex>200</zIndex>
-		</image>
-
 		<video name="backgroundvideo" extra="true">
 			<path>{random}</path>
 			<pos>0.229166666666667 0</pos>
@@ -302,6 +294,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<path>./${system.theme}/_inc/mainlogo.svg</path>
 		</image>
 
+		<!-- inst text on home -->
 		<image name="system_help" extra="static">
 			<path>./_inc/assets/syshelp.svg</path>
 			<pos>0.328125 0.918518518518519</pos>
@@ -353,17 +346,9 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<zIndex>11</zIndex>
 		</image>
 
-		<!--<image name="listsystem" extra="true">
-			<path></path>
-			<size>1 1</size>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<zIndex>12</zIndex>
-		</image>-->
-
 		<image name="list_help" extra="true">
 			<path>./_inc/assets/tilehelp.svg</path>
-			<pos>0.3890625 0.918518518518519</pos>
+			<pos>0.485 0.918518518518519</pos>
 			<maxSize>0.546875 0.05</maxSize>
 			<zIndex>100</zIndex>
 		</image>
@@ -432,24 +417,24 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 
 
 	<view name="detailed">
+		<image name="md_thumbnail">
+                        <origin>0.5 0.5</origin>
+                        <pos>0.427 0.78</pos>
+                        <maxSize>0.18 0.35</maxSize>
+			<zIndex>100</zIndex>
+		</image>
+
 		<image name="game-meta" extra="true">
-			<pos>0.474479166666667 0.665740740740741</pos>
+			<pos>0.5355 0.665740740740741</pos>
 			<size>0.3765625 0.078703703703704</size>
-<path>./_inc/assets/gamemeta.svg</path>
-		<path>./${system.theme}/_inc/gamemeta.svg</path>
+			<path>./_inc/assets/gamemeta.svg</path>
+			<path>./${system.theme}/_inc/gamemeta.svg</path>
 			<color>ffffff</color>
 			<zIndex>100</zIndex>
 		</image>
 
-		<image name="md_marquee">
-			<pos>0.661458333333333 0.611111111111111</pos>
-			<origin>0.5 1</origin>
-			<maxSize>0.20 0.15</maxSize>
-			<zIndex>100</zIndex>
-		</image>
-
 		<text name="md_genre">
-			<pos>0.474479166666667 0.716666666666667</pos>
+			<pos>0.5355 0.716666666666667</pos>
 			<size>0.078125 0.034259259259259</size>
 			<color>B3B3B3</color>
 			<fontSize>0.014814814814815</fontSize>
@@ -458,7 +443,16 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		</text> 
 
 		<text name="md_players">
-			<pos>0.573958333333333 0.716666666666667</pos>
+			<pos>0.633958333333333 0.716666666666667</pos>
+			<size>0.078125 0.034259259259259</size>
+			<color>B3B3B3</color>
+			<fontSize>0.014814814814815</fontSize>
+			<fontPath>./_inc/fonts/RedHatDisplay-Bold.ttf</fontPath>
+			<alignment>center</alignment>
+		</text>
+
+		<text name="md_developer">
+			<pos>0.7334375 0.716666666666667</pos>
 			<size>0.078125 0.034259259259259</size>
 			<color>B3B3B3</color>
 			<fontSize>0.014814814814815</fontSize>
@@ -467,7 +461,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		</text>
 
 		<datetime name="md_releasedate">
-			<pos>0.772916666666667 0.716666666666667</pos>
+			<pos>0.832916666666667 0.716666666666667</pos>
 			<size>0.078125 0.034259259259259</size>
 			<color>B3B3B3</color>
 			<fontSize>0.014814814814815</fontSize>
@@ -475,22 +469,15 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<alignment>center</alignment>
 		</datetime>
 
-		<text name="md_developer">
-			<pos>0.6734375 0.716666666666667</pos>
-			<size>0.078125 0.034259259259259</size>
-			<color>B3B3B3</color>
-			<fontSize>0.014814814814815</fontSize>
-			<fontPath>./_inc/fonts/RedHatDisplay-Bold.ttf</fontPath>
-			<alignment>center</alignment>
-		</text>
+
 
 		<text name="md_description">
 			<color>ffffff</color>
 			<fontPath>./_inc/fonts/RedHatDisplay-Regular.ttf</fontPath>
 			<fontSize>0.016</fontSize>
-			<alignment>center</alignment>
-			<size>0.336458333333333 0.094444444444444</size>
-			<pos>0.494791666666667 0.777777777777778</pos>
+			<alignment>left</alignment>
+			<size>0.37 0.1</size>
+			<pos>0.5355 0.777777777777778</pos>
 		</text> 
 
 		<video name="md_video">
