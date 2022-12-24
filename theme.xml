@@ -392,7 +392,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 
 		<textlist name="gamelist">
 			<pos>0.044 0.247222222222222</pos>
-			<size>0.29 0.53</size>
+			<size>0.282 0.53</size>
 			<selectorColor>424242</selectorColor>
 			<selectedColor>ffffff</selectedColor>
 			<primaryColor>ffffff</primaryColor>
